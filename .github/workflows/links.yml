@@ -1,0 +1,45 @@
+name: Check links
+
+on:
+  schedule:
+    - cron: "23 7 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: links
+  cancel-in-progress: true
+
+jobs:
+  links:
+    if: github.repository == 'neiii/awesome-rune'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check project and image links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 429 means rate limited, not broken.
+          args: --no-progress --max-retries 3 --accept 200,429 projects.json README.template.md
+          output: links.md
+          fail: false
+
+      - name: Update the broken-links issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
+        run: |
+          # lychee exits 2 when links are broken; anything else non-zero is its own failure.
+          case "$EXIT_CODE" in
+            0) findings=0 ;;
+            2) findings=1 ;;
+            *) echo "::error::lychee failed with exit code $EXIT_CODE"; exit 1 ;;
+          esac
+          .github/scripts/report-issue.sh broken-links "Broken links" links.md "$findings"

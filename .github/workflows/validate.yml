@@ -8,6 +8,8 @@ on:
     paths:
       - projects.json
       - projects.schema.json
+      - ignored.json
+      - ignored.schema.json
       - pyproject.toml
       - uv.lock
       - scripts/sort_projects.py
@@ -39,6 +41,9 @@ jobs:
 
       - name: Validate project data
         run: uv run check-jsonschema --schemafile projects.schema.json projects.json
+
+      - name: Validate ignored repositories
+        run: uv run check-jsonschema --schemafile ignored.schema.json ignored.json
 
       - name: Check project ordering
         run: uv run scripts/sort_projects.py --check

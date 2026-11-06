@@ -1,0 +1,17 @@
+{
+  "$schema": "./ignored.schema.json",
+  "repositories": [
+    {
+      "repository": "hirefrank/confidant",
+      "reason": "Rune is only used in a throwaway spike."
+    },
+    {
+      "repository": "wk-j/ui-lab",
+      "reason": "Personal experiments with no README; revisit if it gets one."
+    },
+    {
+      "repository": "zeronsh/zgx",
+      "reason": "A separate UI framework; Rune appears only in a comparison."
+    }
+  ]
+}

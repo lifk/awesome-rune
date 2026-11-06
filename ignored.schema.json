@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/neiii/awesome-rune/blob/main/ignored.schema.json",
+  "title": "Ignored repositories",
+  "description": "Repositories that depend on Rune but are deliberately left out of awesome-rune, so discovery stops reporting them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["repositories"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "repositories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["repository", "reason"],
+        "properties": {
+          "repository": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9-]+/[A-Za-z0-9._-]+$",
+            "description": "GitHub owner/name."
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

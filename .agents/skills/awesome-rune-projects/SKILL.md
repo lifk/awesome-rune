@@ -7,6 +7,8 @@ description: Add or update projects in awesome-rune, including categories, URLs,
 
 Edit `projects.json`; never include `README.md` changes in a pull request.
 
+A weekly workflow keeps a `new-projects` issue listing repositories whose `Cargo.toml` depends on Rune but that are in neither `projects.json` nor `ignored.json`. Work through it with `GITHUB_TOKEN=$(gh auth token) uv run scripts/discover_projects.py`: add each candidate that is a real, documented Rune project, and add the rest to `ignored.json` with a one-line `reason` (a spike, a fork, no README, Rune only in a comparison).
+
 For each project:
 
 - Confirm it actually uses Rune (`github.com/anomalyco/rune` in a `Cargo.toml`), not only mentions it.
@@ -21,6 +23,7 @@ Run, in order:
 
 ```sh
 uv run check-jsonschema --schemafile projects.schema.json projects.json
+uv run check-jsonschema --schemafile ignored.schema.json ignored.json
 uv run scripts/sort_projects.py
 uv run scripts/sort_projects.py --check
 uv run scripts/generate_readme.py

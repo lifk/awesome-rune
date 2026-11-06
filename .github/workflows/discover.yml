@@ -1,0 +1,38 @@
+name: Discover projects
+
+on:
+  schedule:
+    - cron: "41 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: discover
+  cancel-in-progress: true
+
+jobs:
+  discover:
+    if: github.repository == 'neiii/awesome-rune'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Search for repositories that depend on Rune
+        id: search
+        env:
+          # The workflow token can search code across all public repositories.
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run scripts/discover_projects.py --output candidates.md
+
+      - name: Update the discovery issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: .github/scripts/report-issue.sh new-projects "New Rune projects" candidates.md "${{ steps.search.outputs.count }}"
