@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/neiii/awesome-rune/blob/main/projects.schema.json",
+  "title": "Awesome Rune projects",
+  "description": "Schema for projects and resources listed by awesome-rune.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["projects"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/project"
+      }
+    }
+  },
+  "$defs": {
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "category", "url", "description"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "enum": ["Apps", "Libraries", "Tooling", "Resources"]
+        },
+        "subcategory": {
+          "type": "string",
+          "enum": [
+            "Developer Tools",
+            "Productivity",
+            "Media",
+            "System Utilities",
+            "Games",
+            "Demos & Examples"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "image": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "Optional image displayed alongside the project."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "Canonical project URL. GitHub URLs are used to fetch stars and activity."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "category": {
+                "const": "Apps"
+              }
+            },
+            "required": ["category"]
+          },
+          "then": {
+            "required": ["subcategory"]
+          },
+          "else": {
+            "not": {
+              "required": ["subcategory"]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

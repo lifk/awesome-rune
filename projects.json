@@ -1,0 +1,311 @@
+{
+  "$schema": "./projects.schema.json",
+  "projects": [
+    {
+      "name": "agent-usage",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/RyanLatimer/usage-tracker/tree/master/native",
+      "description": "Native UI for agent-usage: sessions, tokens and API cost summed across every installed coding harness, per harness and per model."
+    },
+    {
+      "name": "phux",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/no-phux/phux/tree/main/clients/rune",
+      "image": "https://raw.githubusercontent.com/no-phux/phux/main/docs/assets/fox-mark.png",
+      "description": "Alpha desktop client for phux, a terminal multiplexer whose server you can drive from code and that tracks which panes run a coding agent."
+    },
+    {
+      "name": "Prime Agent Desktop",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/mweinbach/prime-agent-ui",
+      "description": "Unofficial desktop client for Prime Agent that shares the CLI's daemon, saved chats and provider credentials."
+    },
+    {
+      "name": "Rex for Linux",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/shuv1337/rex-rune",
+      "image": "https://raw.githubusercontent.com/shuv1337/rex-rune/master/resources/icons/128x128/apps/dev.shuv.rex-linux.png",
+      "description": "Unofficial native Linux client for Rex, the terminal multiplexer from Superlogical."
+    },
+    {
+      "name": "t3code-desktop-rune",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/ImBIOS/t3code-desktop-rune",
+      "description": "T3 Code Desktop recreated in Rune for Linux, targeting 1:1 parity with the nightly build."
+    },
+    {
+      "name": "Deadbolt",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/anomalyco/deadbolt",
+      "image": "https://raw.githubusercontent.com/anomalyco/deadbolt/dev/extension/static/icons/icon-128.png",
+      "description": "A decentralized password manager: devices sync directly over iroh and join by pairing, with no accounts or servers."
+    },
+    {
+      "name": "Grim",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/anomalyco/grim",
+      "image": "https://raw.githubusercontent.com/anomalyco/grim/main/assets/icon/grim-icon-mac-1024.png",
+      "description": "A multiplayer Markdown notebook for people and agents, with notes stored in Git and a native Mac app."
+    },
+    {
+      "name": "Hex",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/anomalyco/hex",
+      "image": "https://raw.githubusercontent.com/anomalyco/hex/dev/.github/assets/hex-icon.png",
+      "description": "Local voice dictation for macOS, Windows and Linux."
+    },
+    {
+      "name": "koe",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/mokmok-dev/koe",
+      "description": "A privacy-first recorder with on-device transcription, system audio and microphone capture, and a menu bar HUD."
+    },
+    {
+      "name": "Kotoba",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/shiroyasha9/kotoba",
+      "image": "https://raw.githubusercontent.com/shiroyasha9/kotoba/main/design/icon/source/app-icon-dark.svg",
+      "description": "Native macOS menu bar dictation: tap a chord, speak, and the transcript is pasted in about a second."
+    },
+    {
+      "name": "rusty-pencil",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/JohnDeeZimmermann/rusty-pencil",
+      "image": "https://raw.githubusercontent.com/JohnDeeZimmermann/rusty-pencil/main/assets/icon.svg",
+      "description": "A cosy, hand-drawn, local-first whiteboard in the spirit of Excalidraw."
+    },
+    {
+      "name": "WordInk",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/duketopceo/WordInk",
+      "description": "AI-powered speech-to-text using Groq's API, a Wispr Flow alternative."
+    },
+    {
+      "name": "X",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/0xQuerencia/x",
+      "description": "A fork of Hex for Linux that adds voice commands: open apps, run searches and switch Hyprland workspaces."
+    },
+    {
+      "name": "Auxcord",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/Brendonovich/apps/tree/main/auxcord",
+      "description": "Route audio between apps and devices on macOS, including a virtual device other apps can record from."
+    },
+    {
+      "name": "Clip",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/anomalyco/clip",
+      "image": "https://raw.githubusercontent.com/anomalyco/clip/dev/assets/clip-icon-256.png",
+      "description": "Double-tap ⌃ to record your screen, then trim, crop and paste. For macOS."
+    },
+    {
+      "name": "Flicks",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/anomalyco/flicks",
+      "image": "https://raw.githubusercontent.com/anomalyco/flicks/main/assets/brand/app-icon.png",
+      "description": "A lightweight Plex alternative: servers own your folders, and the app merges any number of them into one library. No account, nothing hosted."
+    },
+    {
+      "name": "Futhark",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/Brendonovich/futhark",
+      "description": "A TouchDesigner-style realtime node-based visual programming environment."
+    },
+    {
+      "name": "Psychopomp",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/kitlangton/psychopomp",
+      "description": "Code-first motion graphics: a small Rust program describes a scene, rendered as 1080p60 video with motion blur or played as an interactive presentation."
+    },
+    {
+      "name": "Scry",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/maharshi365/scry",
+      "image": "https://raw.githubusercontent.com/maharshi365/scry/master/crates/scry-app/assets/scry.svg",
+      "description": "A native streaming app for movies and TV, with Stremio add-on support and a built-in player."
+    },
+    {
+      "name": "stremio-rune",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/prodBirdy/stremio-rune",
+      "image": "https://raw.githubusercontent.com/prodBirdy/stremio-rune/main/installer/assets/icon.png",
+      "description": "Native Windows Stremio client."
+    },
+    {
+      "name": "vidshow",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/threehymns/vidshow",
+      "description": "Show a video to a room: one window holds the controls, and a borderless presenter window covers the display you choose. Decodes with ffmpeg."
+    },
+    {
+      "name": "Cloud Drive Mount",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/nocdn/drive-mount",
+      "image": "https://raw.githubusercontent.com/nocdn/drive-mount/main/desktop/icons/128x128.png",
+      "description": "Mount cloud storage (B2, Google Drive, seedboxes) as local drives on macOS and Windows, powered by rclone."
+    },
+    {
+      "name": "Conduit",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/nonlog/Conduit/tree/master/windows/conduit-rune",
+      "image": "https://raw.githubusercontent.com/nonlog/Conduit/master/windows/conduit-ui/Assets/conduit-icon.png",
+      "description": "A small Android ↔ Windows companion for clipboard sync, notifications, file transfer and photo capture toasts."
+    },
+    {
+      "name": "DScr",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/tbdsux/dscr",
+      "description": "A small macOS screenshot tool with screen, window and selection modes, delays, global shortcuts and a preview."
+    },
+    {
+      "name": "Hokum",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/anomalyco/hokum",
+      "description": "Notifications for Wayland that look like they belong on a computer from this decade."
+    },
+    {
+      "name": "Hokum Bluetooth",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/anomalyco/hokum-bluetooth",
+      "description": "Bluetooth manager for Linux."
+    },
+    {
+      "name": "Hokum Sound",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/anomalyco/hokum-sound",
+      "description": "Audio control for Linux."
+    },
+    {
+      "name": "Mojito",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/OnFireByte/Mojito",
+      "image": "https://raw.githubusercontent.com/OnFireByte/Mojito/main/docs/icon/AppIcon.iconset/icon_128x128.png",
+      "description": "A macOS shortcut app that turns Caps Lock into a Meta key for arrows, input switching and an app-switching overlay."
+    },
+    {
+      "name": "Sheath",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/threehymns/sheath",
+      "description": "A cross-platform file manager with a reorderable sidebar, live recursive search, previews and an inspector."
+    },
+    {
+      "name": "Storix",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/kamal0620040/storix",
+      "description": "A fast, native disk cleanup app for Windows: see where the space went, review recommendations and uninstall apps."
+    },
+    {
+      "name": "Runesweeper",
+      "category": "Apps",
+      "subcategory": "Games",
+      "url": "https://github.com/nicognaW/runesweeper",
+      "image": "https://raw.githubusercontent.com/nicognaW/runesweeper/main/assets/icon.png",
+      "description": "Minesweeper with the rules and quirks of the Windows classic, drawn with springs, ripples, liquid-metal chrome, fire and shockwaves."
+    },
+    {
+      "name": "CarterAI",
+      "category": "Apps",
+      "subcategory": "Demos & Examples",
+      "url": "https://github.com/RyanLatimer/carterai",
+      "image": "https://raw.githubusercontent.com/RyanLatimer/carterai/main/assets/icon.svg",
+      "description": "Minimal local GPT-2 chat for Apple Silicon with Metal inference and rune-kit components."
+    },
+    {
+      "name": "rune-fx",
+      "category": "Libraries",
+      "url": "https://github.com/anomalyco/rune/tree/dev/crates/rune-fx",
+      "description": "Official effect layers: glow, pulses, electricity, fire, motion blur, distortion, and fills such as liquid metal and mesh gradients."
+    },
+    {
+      "name": "rune-kit",
+      "category": "Libraries",
+      "url": "https://github.com/anomalyco/rune/tree/dev/crates/rune-kit",
+      "description": "Official generic, themable components that read only semantic tokens, with the names and variants of `@opencode/ui`."
+    },
+    {
+      "name": "rune-knobs",
+      "category": "Libraries",
+      "url": "https://github.com/anomalyco/rune/tree/dev/crates/rune-knobs",
+      "description": "Official live tuning values: named knobs in groups, and the ⌘⇧K panel that tunes them."
+    },
+    {
+      "name": "rune-light",
+      "category": "Libraries",
+      "url": "https://github.com/anomalyco/rune/tree/dev/crates/rune-light",
+      "description": "Official real-time lighting for UIs: SDF soft shadows, bevel normals, god rays and radiance-cascade GI."
+    },
+    {
+      "name": "rune-mac",
+      "category": "Libraries",
+      "url": "https://github.com/anomalyco/rune/tree/dev/crates/rune-mac",
+      "description": "Official macOS helpers: remembered window frames, full screen, quiet relaunches and system notifications."
+    },
+    {
+      "name": "rune-material-shapes",
+      "category": "Libraries",
+      "url": "https://github.com/threehymns/rune-material-shapes",
+      "description": "Material 3 Expressive's 35-shape library, ported to Rust and painted with Rune's vector shapes."
+    },
+    {
+      "name": "rune-mermaid",
+      "category": "Libraries",
+      "url": "https://github.com/anomalyco/rune/tree/dev/crates/rune-mermaid",
+      "description": "Official native Mermaid diagrams: flowcharts, sequence diagrams and state diagrams drawn with Rune shapes and text."
+    },
+    {
+      "name": "rune-motion",
+      "category": "Libraries",
+      "url": "https://github.com/anomalyco/rune/tree/dev/crates/rune-motion",
+      "description": "Official animation runtime: analytic springs, retargetable tracks, presence, layout and matched-geometry animation."
+    },
+    {
+      "name": "rune-theme-opencode",
+      "category": "Libraries",
+      "url": "https://github.com/anomalyco/rune/tree/dev/themes/opencode",
+      "description": "Official OpenCode theme that supplies rune-kit's semantic tokens."
+    },
+    {
+      "name": "Rune documentation",
+      "category": "Resources",
+      "url": "https://github.com/anomalyco/rune/blob/dev/crates/rune/README.md",
+      "description": "The official guide to Rune's elements, layout, input, motion and headless testing."
+    },
+    {
+      "name": "Rune examples",
+      "category": "Resources",
+      "url": "https://github.com/anomalyco/rune/tree/dev/examples",
+      "description": "Official examples, from `hello` and `todo` to a settings window, video player, kit gallery and web builds."
+    }
+  ]
+}

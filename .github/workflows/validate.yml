@@ -1,0 +1,44 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+    paths:
+      - projects.json
+      - projects.schema.json
+      - pyproject.toml
+      - uv.lock
+      - scripts/sort_projects.py
+      - .github/workflows/validate.yml
+
+permissions:
+  contents: read
+
+jobs:
+  projects:
+    name: Validate projects.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ensure README is not modified
+        if: github.event_name == 'pull_request'
+        run: |
+          if ! git diff --quiet "origin/${{ github.base_ref }}...HEAD" -- README.md; then
+            echo "::error::README.md is generated. Pull Requests should only edit \`projects.json\`."
+            exit 1
+          fi
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Validate project data
+        run: uv run check-jsonschema --schemafile projects.schema.json projects.json
+
+      - name: Check project ordering
+        run: uv run scripts/sort_projects.py --check
