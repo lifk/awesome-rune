@@ -24,6 +24,33 @@ PAGE_SIZE = 100
 MAX_PAGES = 10
 # Code search allows 10 requests a minute.
 PAGE_DELAY_SECONDS = 7
+# The workflow token is sometimes throttled even on its first request, so wait
+# out rate limits instead of failing the run.
+SEARCH_ATTEMPTS = 5
+MAX_WAIT_SECONDS = 120
+
+
+def retry_delay(error: HTTPError, attempt: int) -> float:
+    if retry_after := error.headers.get("Retry-After"):
+        return float(retry_after)
+    if error.headers.get("X-RateLimit-Remaining") == "0" and (reset := error.headers.get("X-RateLimit-Reset")):
+        return max(1.0, float(reset) - time.time() + 1)
+    return 15.0 * 2**attempt
+
+
+def search_page(token: str | None, page: int) -> Any:
+    params = {"q": QUERY, "per_page": str(PAGE_SIZE), "page": str(page)}
+    for attempt in range(SEARCH_ATTEMPTS):
+        try:
+            return github_get("/search/code", token, params)
+        except HTTPError as error:
+            # GitHub signals rate limits with 429, or 403 for secondary limits.
+            if error.code not in {403, 429} or attempt == SEARCH_ATTEMPTS - 1:
+                raise
+            delay = min(retry_delay(error, attempt), MAX_WAIT_SECONDS)
+            print(f"Rate limited on page {page} (HTTP {error.code}); retrying in {delay:.0f}s.", file=sys.stderr)
+            time.sleep(delay)
+    raise AssertionError("unreachable")
 
 
 def search(token: str | None) -> dict[str, list[dict[str, str]]]:
@@ -32,11 +59,7 @@ def search(token: str | None) -> dict[str, list[dict[str, str]]]:
     for page in range(1, MAX_PAGES + 1):
         if page > 1:
             time.sleep(PAGE_DELAY_SECONDS)
-        data = github_get(
-            "/search/code",
-            token,
-            {"q": QUERY, "per_page": str(PAGE_SIZE), "page": str(page)},
-        )
+        data = search_page(token, page)
         items = data.get("items", [])
         for item in items:
             hits.setdefault(item["repository"]["full_name"], []).append(
