@@ -1,0 +1,32 @@
+[package]
+name = "awesome-rune"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "CC0-1.0"
+description = "Maintains awesome-rune: generates the README and its charts, sorts and validates the project list, and discovers new Rune projects."
+
+[[bin]]
+name = "awesome"
+path = "src/main.rs"
+
+[workspace]
+exclude = ["tools/badges/vendor"]
+
+[dependencies]
+anyhow = "1"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4", features = ["derive"] }
+dotenvy = "0.15"
+html-escape = "0.2"
+image = { version = "0.25", default-features = false, features = ["png"] }
+indexmap = "2"
+jsonschema = "0.60.2"
+percent-encoding = "2"
+rayon = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+sha2 = "0.10"
+slug = "0.1"
+ureq = { version = "2", features = ["json"] }
+url = "2"
