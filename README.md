@@ -23,22 +23,22 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/hex"><img src="https://raw.githubusercontent.com/anomalyco/hex/dev/.github/assets/hex-icon.png" width="96" height="96" alt=""></a><br>
 <a href="https://github.com/anomalyco/hex"><b>Hex</b></a><br>
-<img src="assets/stars/star-gold.png" height="32" align="middle" alt="5.7k stars"> <b>5.7k</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=a86cdb175117" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="assets/stars/star-gold.png" height="32" align="middle" alt="5.8k stars"> <b>5.8k</b><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=11b3ede71d6b" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v3.3.0</code> 5d ago</sub><br>
 <sub>Local voice dictation for macOS, Windows and Linux.</sub>
 </td>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/kitlangton/psychopomp"><img src="https://github.com/kitlangton.png?size=128" width="96" height="96" alt=""></a><br>
 <a href="https://github.com/kitlangton/psychopomp"><b>Psychopomp</b></a><br>
-<img src="assets/stars/star-silver.png" height="32" align="middle" alt="421 stars"> <b>421</b><br>
+<img src="assets/stars/star-silver.png" height="32" align="middle" alt="422 stars"> <b>422</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/psychopomp.png?v=ce077230ef79" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>Code-first motion graphics: a small Rust program describes a scene, rendered as 1080p60 video with motion blur or played as an interactive presentation.</sub>
 </td>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/deadbolt"><img src="https://raw.githubusercontent.com/anomalyco/deadbolt/dev/extension/static/icons/icon-128.png" width="96" height="96" alt=""></a><br>
 <a href="https://github.com/anomalyco/deadbolt"><b>Deadbolt</b></a><br>
-<img src="assets/stars/star-silver.png" height="32" align="middle" alt="284 stars"> <b>284</b><br>
+<img src="assets/stars/star-silver.png" height="32" align="middle" alt="287 stars"> <b>287</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/deadbolt.png?v=e8d9ed53830b" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>A decentralized password manager: devices sync directly over iroh and join by pairing, with no accounts or servers.</sub>
 </td>
@@ -64,7 +64,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/no-phux/phux/tree/main/clients/rune"><img src="https://raw.githubusercontent.com/no-phux/phux/main/docs/assets/fox-mark.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/no-phux/phux/tree/main/clients/rune"><b>phux</b></a><br>
 <img src="assets/stars/star-rose.png" height="32" align="middle" alt="22 stars"> <b>22</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/phux.png?v=ad8aa00bc896" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/phux.png?v=77b4edfec957" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v0.128.0</code> today</sub><br>
 <sub>Alpha desktop client for phux, a terminal multiplexer whose server you can drive from code and that tracks which panes run a coding agent.</sub>
 </td>
@@ -73,7 +73,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/mweinbach/prime-agent-ui"><b>Prime Agent Desktop</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="1 stars"> <b>1</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/prime-agent-desktop.png?v=3f2aeff739e1" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>desktop-v0.11.0</code> 1d ago</sub><br>
+<sub><code>desktop-v0.11.0</code> 2d ago</sub><br>
 <sub>Unofficial desktop client for Prime Agent that shares the CLI&#x27;s daemon, saved chats and provider credentials.</sub>
 </td>
 </tr>
@@ -103,7 +103,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/deadbolt"><img src="https://raw.githubusercontent.com/anomalyco/deadbolt/dev/extension/static/icons/icon-128.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/deadbolt"><b>Deadbolt</b></a><br>
-<img src="assets/stars/star-silver.png" height="32" align="middle" alt="284 stars"> <b>284</b><br>
+<img src="assets/stars/star-silver.png" height="32" align="middle" alt="287 stars"> <b>287</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/deadbolt.png?v=e8d9ed53830b" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>A decentralized password manager: devices sync directly over iroh and join by pairing, with no accounts or servers.</sub>
 </td>
@@ -117,8 +117,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/hex"><img src="https://raw.githubusercontent.com/anomalyco/hex/dev/.github/assets/hex-icon.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/hex"><b>Hex</b></a><br>
-<img src="assets/stars/star-gold.png" height="32" align="middle" alt="5.7k stars"> <b>5.7k</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=a86cdb175117" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="assets/stars/star-gold.png" height="32" align="middle" alt="5.8k stars"> <b>5.8k</b><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=11b3ede71d6b" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v3.3.0</code> 5d ago</sub><br>
 <sub>Local voice dictation for macOS, Windows and Linux.</sub>
 </td>
@@ -136,7 +136,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/shiroyasha9/kotoba"><b>Kotoba</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="3 stars"> <b>3</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/kotoba.png?v=68d261f57fed" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.5.3</code> 5d ago</sub><br>
+<sub><code>v0.5.3</code> 6d ago</sub><br>
 <sub>Native macOS menu bar dictation: tap a chord, speak, and the transcript is pasted in about a second.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -175,7 +175,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/Brendonovich/apps/tree/main/auxcord"><b>Auxcord</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="6 stars"> <b>6</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/auxcord.png?v=ef01323ca498" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.0.10</code> 15d ago</sub><br>
+<sub><code>v0.0.10</code> 16d ago</sub><br>
 <sub>Route audio between apps and devices on macOS, including a virtual device other apps can record from.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -205,7 +205,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/kitlangton/psychopomp"><img src="https://github.com/kitlangton.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/kitlangton/psychopomp"><b>Psychopomp</b></a><br>
-<img src="assets/stars/star-silver.png" height="32" align="middle" alt="421 stars"> <b>421</b><br>
+<img src="assets/stars/star-silver.png" height="32" align="middle" alt="422 stars"> <b>422</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/psychopomp.png?v=ce077230ef79" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>Code-first motion graphics: a small Rust program describes a scene, rendered as 1080p60 video with motion blur or played as an interactive presentation.</sub>
 </td>
@@ -245,7 +245,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/nocdn/drive-mount"><b>Cloud Drive Mount</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="0 stars"> <b>0</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/cloud-drive-mount.png?v=05cad9ddd8a4" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v1.0.2</code> 5d ago</sub><br>
+<sub><code>v1.0.2</code> 6d ago</sub><br>
 <sub>Mount cloud storage (B2, Google Drive, seedboxes) as local drives on macOS and Windows, powered by rclone.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -270,7 +270,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/anomalyco/hokum"><b>Hokum</b></a><br>
 <img src="assets/stars/star-silver.png" height="32" align="middle" alt="251 stars"> <b>251</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hokum.png?v=d4bbac687be2" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.1.3</code> 9d ago</sub><br>
+<sub><code>v0.1.3</code> 10d ago</sub><br>
 <sub>Notifications for Wayland that look like they belong on a computer from this decade.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -410,7 +410,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/khromov/runex"><img src="https://github.com/khromov.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/khromov/runex"><b>runex</b></a><br>
-<img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="6 stars"> <b>6</b><br>
+<img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="7 stars"> <b>7</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/runex.png?v=d5e9ce954ab8" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>Node.js and Bun bindings for writing Rune apps in TypeScript, with the same API as the Rust crates.</sub>
 </td>
@@ -424,13 +424,13 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/rune/blob/dev/crates/rune/README.md"><img src="assets/rune-mark.svg" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/rune/blob/dev/crates/rune/README.md"><b>Rune documentation</b></a><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rune-documentation.png?v=484647f20a83" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rune-documentation.png?v=8d75bd9bbf19" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>The official guide to Rune&#x27;s elements, layout, input, motion and headless testing.</sub>
 </td>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/rune/tree/dev/examples"><img src="assets/rune-mark.svg" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/rune/tree/dev/examples"><b>Rune examples</b></a><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rune-examples.png?v=548e246d3b6a" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rune-examples.png?v=771bc0913fbb" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>Official examples, from `hello` and `todo` to a settings window, video player, kit gallery and web builds.</sub>
 </td>
 </tr>
