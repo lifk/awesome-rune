@@ -82,8 +82,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/shuv1337/rex-rune"><img src="https://raw.githubusercontent.com/shuv1337/rex-rune/master/resources/icons/128x128/apps/dev.shuv.rex-linux.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/shuv1337/rex-rune"><b>Rex for Linux</b></a><br>
 <img src="assets/stars/star-rose.png" height="32" align="middle" alt="31 stars"> <b>31</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rex-for-linux.png?v=c467dde5eb93" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.3.2</code> 1d ago</sub><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rex-for-linux.png?v=6f16302d711d" height="32" alt="Commits per day over the last 28 days"><br>
+<sub><code>v0.3.2</code> 2d ago</sub><br>
 <sub>Unofficial native Linux client for Rex, the terminal multiplexer from Superlogical.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -230,7 +230,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/alii/sleeve"><img src="https://github.com/alii.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/alii/sleeve"><b>Sleeve</b></a><br>
-<img src="assets/stars/star-rose.png" height="32" align="middle" alt="10 stars"> <b>10</b><br>
+<img src="assets/stars/star-rose.png" height="32" align="middle" alt="11 stars"> <b>11</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/sleeve.png?v=390a6891f06f" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>Fast DJ USB export software for a rekordbox library, a Rekordbox alternative.</sub>
 </td>
